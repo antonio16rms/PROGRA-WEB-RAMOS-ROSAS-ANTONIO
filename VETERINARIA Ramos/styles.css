@@ -1,0 +1,78 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Tabla de precios */
+.price-table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+}
+
+.price-table th, .price-table td {
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    text-align: center;
+}
+
+.price-table th {
+    background-color: #4CAF50;
+    color: white;
+}

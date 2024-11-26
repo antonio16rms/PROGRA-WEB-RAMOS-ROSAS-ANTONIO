@@ -1,0 +1,229 @@
+/* Reiniciar estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilos del header */
+header {
+    background-color: #0b1a4a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #fdb913;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 15px 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fdb913;
+}
+
+/* Estilos generales de las secciones */
+main {
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0b1a4a;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #fdb913;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.intro img, .trophy-section img {
+    display: block;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Estilos para las secciones de noticias */
+.noticias article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #0b1a4a;
+    background-color: #f9f9f9;
+}
+
+.noticias article h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.noticias article p {
+    font-size: 1.1em;
+}
+
+/* Sección de historia */
+.historia blockquote {
+    font-style: italic;
+    background-color: #f4f4f9;
+    border-left: 5px solid #fdb913;
+    padding: 10px 20px;
+    margin: 20px 0;
+    color: #666;
+}
+
+/* Formulario de contacto */
+#contacto form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#contacto form label {
+    font-weight: bold;
+}
+
+#contacto form input, #contacto form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+#contacto form textarea {
+    grid-column: 1 / span 2;
+    resize: vertical;
+    height: 150px;
+}
+
+#contacto form button {
+    grid-column: 2;
+    padding: 10px 20px;
+    background-color: #0b1a4a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+#contacto form button:hover {
+    background-color: #fdb913;
+}
+
+/* Tabla de jugadores */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th, table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #0b1a4a;
+    color: white;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para secciones de jugadores */
+.jugadores {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.jugador {
+    flex: 1;
+    text-align: center;
+}
+
+.jugador img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.jugador p {
+    font-size: 1.1em;
+}
+
+/* Estilos para la sección de trofeos */
+.trophy-section ul {
+    margin-top: 20px;
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.trophy-section ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0b1a4a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
